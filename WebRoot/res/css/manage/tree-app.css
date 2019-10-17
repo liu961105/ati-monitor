@@ -1,0 +1,133 @@
+.tablelist  { text-align: left; width: 100%; margin-bottom: 0; background: #FFF; border: 1px solid #DDD; /*margin-top: 60px;*/ margin-right: auto; margin-left: auto; /*_width: 98%;*/ }
+.tablelist  a { text-decoration: none; font-weight: normal; font-size: 12px; }
+.tablelist  tr.even td { background: #fbfbfb; }
+.tablelist  tr td, .tablelist  tr, .table_ninghua td { font-size: 12px !important; }
+.tablelist  tr td, .tablelist  tr th { padding: 8px 10px; line-height: normal; text-align: left; }
+.zTreeDemoBackground {border: 1px solid #ddd; */}
+#tablelist form #main tbody tr td {padding: 0px 0px;}
+.tablelist  tr td b, .tablelist  tr th b { padding: 0 5px; vertical-align: middle;}
+.tablelist  tr th.headerSortUp { color: #333; background: url(../images/sortd.gif) 95% center no-repeat; }
+.tablelist  tr th.headerSortDown { color: #333; background: url(../images/sorta.gif) 95% center no-repeat; }
+.tablelist  tr td { color: #000; font-size: 13px; }
+.tablelist  tr td.delete { width: 29px; text-align: center; }
+.tablelist  tr td.delete a { opacity: .50; -moz-opacity: .50; }
+.tablelist  tr td.delete a:hover { opacity: 1; -moz-opacity: 1; }
+.tablelist  thead { background: #F7F7F7; border: 1px ssolid #9EDAFA; }
+.tablelist  thead th { font-size: 14px; color: #636363; background: #D8D8D8 url(images/bar_bottom.png) bottom repeat-x; /*text-align:center;*/ }
+.tablelist  td.td_tiele { text-align: right; color: #333; }
+#tablelist .tableactions { overflow: hidden; padding: 0 1em 0px 0; float: right; }
+#tablelist .tableactions select { width: 100px; margin-right: 5px; vertical-align: middle; outline: none; padding: 3px; background: #F3F3F3; color: #636363; border: 1px solid #D7D7D7; }
+#tablelist .tableactions input.submit { border: 1px solid #D7D7D7; background: #F1F1F1 url(../images/mbg.jpg) center repeat-x; padding: 1px 6px; line-height: 20px; font-size: 12px; /*font-weight: bold;*/ color: #333; vertical-align: middle; /*text-shadow: 0 1px 0 #000;*/ cursor: pointer; border-radius: 1px; -moz-border-radius: 1px; -webkit-border-radius: 1px; }
+#tablelist .tableactions input.submit:hover { background: #3D82BD url(../images/mbgh.jpg) center repeat-x; color: #FFF; border: 1px solid #243C62; /*text-shadow: 0 1px 0 #6e3704; -moz-box-shadow: inset 0 1px 0 #f3cf8c; -webkit-box-shadow: inset 0 1px 0 #f3cf8c; box-shadow: inset 0 1px 0 #f3cf8c;*/ }
+#tablelist .table_pagination { font-size: 10px; font-weight: bold; padding: 5px 0 5px 1em; font-family: Verdana, Geneva, sans-serif; }
+#tablelist .table_pagination.right { float: right; text-align: right; border: 0; width: 500px; overflow: hidden; padding-top: 1px; }
+#tablelist .table_pagination a { text-decoration: none; border: 1px solid #ccc; padding: 3px 7px; margin: 0 1px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#tablelist .table_pagination a.active { color: #FFF; background: #5278F3; }
+#tablelist .table_pagination a:hover { color: #fff; background: #5278F3; border: 1px solid #0069ac; text-shadow: 0 1px 0 #333; }
+
+.tablelist .data_form { margin: 5px auto; width: 98%; text-align: left;  color: #666; }
+.tablelist .data_form input { padding: 5px; }
+/*.tablelist .data_form tr { border-bottom: 1px solid #CCC; }*/
+.tablelist .data_form td { border: none; border-bottom: 1px solid #CCC; padding: 5px; line-height: 38px; vertical-align: middle; }
+.tablelist .data_form td img { vertical-align: middle; margin: 0 4px; }
+.tablelist .data_form span { padding: 0 5px; font-size: 20px; height: 30px; overflow: hidden; color: #CCC; }
+.tablelist .data_form select { width: 210px; padding: 5px; font: 14px/24px "microsoft yahei"; }
+.blue_sub { background: #2A75AF; border: none; color: #FFF; padding: 0 20px; }
+.blue_sub:hover { border: none; }
+.tablelist .data_form .pass_reg_submit { background: url(../../Images/New/WebPic/regbtn-split.gif) no-repeat; width: 109px; height: 34px; color: white; border: none; font-size: 14px; clear: both; display: inline-block; cursor: pointer; line-height: 10px; padding: 0; margin: 0 10px 0 0; }
+.tablelist .data_form .pass_reg_submit_hover, input.pass_reg_submit:hover { background-position: -120px 0; }
+.tablelist .data_form .pass_reg_submit_mousedown { background-position: -240px 0; }
+
+
+.tablelist .mes_form { margin: 5px auto; width: 95%; text-align: left;  color: #666; }
+.tablelist .mes_form input { padding: 2px 6px; }
+/*.tablelist .data_form tr { border-bottom: 1px solid #CCC; }*/
+.tablelist .mes_form td { border: none; border-bottom: 1px dashed #999; padding: 2px 5px; line-height: 34px; vertical-align: middle; }
+.tablelist .mes_form td img { vertical-align: middle; margin: 0 4px; }
+.tablelist .mes_form span { padding: 0 5px; font-size: 20px; height: 30px; overflow: hidden; color: #CCC; }
+.tablelist .mes_form select { width: 210px; padding: 5px; font: 14px/24px "microsoft yahei"; }
+.tablelist .mes_com td, .tablelist .mes_com tr { border: none; padding: 0 5px; }
+
+.tablelist .reg_.tablelist  { width: 600px; /*background:#FF6;*/ margin: 2em 0 0 0; float: left; border: none; }
+.tablelist .reg_.tablelist  td { border: none; line-height: normal; height: 30px; overflow: hidden; vertical-align: top; }
+.ztree li span.button.switch.level0 {visibility:hidden; width:1px;}
+.ztree li ul.level0 {padding:0; background:none;}
+.ztree li span.button.add {margin-left:2px; margin-right: -1px; background-position:-144px 0; vertical-align:top; *vertical-align:middle}
+
+.list-warper {
+padding: 0 0px;
+letter-spacing: 0.05em;
+}
+.form-warper
+{
+ min-width:1003px;
+}
+
+.form-content .form-table {
+    margin: 0 -20px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.form-content .input, .form-content textarea {
+    width: 100%;
+    display: block;
+    height: 40px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #cfd9db;
+    border-radius: 4px;
+ }
+ 
+ .form-title {
+    color: #6d747b;
+    padding: 5px 15px;
+    line-height: 16px;
+    font-size: 24px;
+    border-left: 0px solid #ffa200;
+    overflow: hidden;
+    margin: 21px 0;
+}
+
+.form-content.double {
+    width: 50%;
+}
+.form-content {
+    padding: 10px 0;
+}
+.fn-left {
+    float: left;
+}
+.fn-left {
+    float: left;
+}
+.fn-left, .fn-right {
+    display: inline;
+}
+
+.form-table li {
+    padding: 5px 0;
+}
+
+.form-btn{
+	left:20px;
+}
+.form-btn .btn {
+    line-height: 38px;
+    padding: 0 18px;
+    background-color: #1E9FFF;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 40%;
+    margin-top: 10px;
+}

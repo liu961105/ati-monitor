@@ -1,0 +1,162 @@
+html {font-size: 1.2vw!important;}
+html, body,ul,li, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei", Helvetica, sans-serif, "SimSun";
+  font-weight: normal;
+  /* font-size: 0.911851851851852vw; */
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1rem;
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  overflow-x: hidden;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**/
+
+.hclear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.hhover {
+  opacity: 0.8;
+}
+
+.pageMain {
+  width: 100%;
+  position: relative;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  font-size: 16/1920*100vw;
+  background-color: #171939 !important;
+}
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    }
+  ::-webkit-scrollbar-button {
+    width: 0;
+    height: 0;
+    }
+  ::-webkit-scrollbar-button:start:decrement,
+  ::-webkit-scrollbar-button:end:increment {
+    display: block;
+    }
+  ::-webkit-scrollbar-button:vertical:start:increment,
+  ::-webkit-scrollbar-button:vertical:end:decrement {
+    display: none;
+    }
+  ::-webkit-scrollbar-track:vertical,
+  ::-webkit-scrollbar-track:horizontal,
+  ::-webkit-scrollbar-thumb:vertical,
+  ::-webkit-scrollbar-thumb:horizontal,
+  ::-webkit-scrollbar-track:vertical,
+  ::-webkit-scrollbar-track:horizontal,
+  ::-webkit-scrollbar-thumb:vertical,
+  ::-webkit-scrollbar-thumb:horizontal {
+    border-color: transparent;
+    border-style: solid;
+    }
+  ::-webkit-scrollbar-track:vertical::-webkit-scrollbar-track:horizontal {
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+    }
+  ::-webkit-scrollbar-thumb {
+    min-height: 28px;
+    padding-top: 100;
+    /* background-color: rgba(0, 0, 0, .2); */
+    background-color: rgb(177, 207, 243);
+		/* background-color: rgb(177, 200, 250); */
+    -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+    border-radius: 5px;
+    -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1), inset 0 -1px 0 rgba(0, 0, 0, .07);
+    }
+  ::-webkit-scrollbar-thumb:hover {
+    /* background-color: rgba(0, 0, 0, .4); */
+    background-color: rgb(154, 184, 249);
+    -webkit-box-shadow: inset 1px 1px 1px rgba(0, 0, 0, .25);
+    }
+  ::-webkit-scrollbar-thumb:active {
+    /* background-color: rgba(0, 0, 0, .5); */
+    background-color: rgb(154, 184, 249);
+    -webkit-box-shadow: inset 1px 1px 3px rgba(0, 0, 0, .35);
+    }
+  ::-webkit-scrollbar-track:vertical,
+  ::-webkit-scrollbar-track:horizontal,
+  ::-webkit-scrollbar-thumb:vertical,
+  ::-webkit-scrollbar-thumb:horizontal {
+    border-width: 0;
+    }
+  ::-webkit-scrollbar-track:hover {
+    background-color: rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .1);
+    }
+  ::-webkit-scrollbar-track:active {
+    background-color: rgba(0, 0, 0, .05);
+    -webkit-box-shadow: inset 1px 0 0 rgba(0, 0, 0, .14), inset -1px -1px 0 rgba(0, 0, 0, .07);
+    }
+  .scrollbar-hover::-webkit-scrollbar,
+  .scrollbar-hover::-webkit-scrollbar-button,
+  .scrollbar-hover::-webkit-scrollbar-track,
+  .scrollbar-hover::-webkit-scrollbar-thumb {
+    visibility: hidden;
+    }
+  .scrollbar-hover:hover::-webkit-scrollbar,
+  .scrollbar-hover:hover::-webkit-scrollbar-button,
+  .scrollbar-hover:hover::-webkit-scrollbar-track,
+  .scrollbar-hover:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+    }
+  }
+/*less basic*/
+

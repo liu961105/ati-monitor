@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:tx="http://www.springframework.org/schema/tx" xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"
+    default-autowire="byName">
+    <description>此文件用于shiro的整体配置</description>
+    <!-- 自定义Realm -->
+	<bean id="myRealm" class="com.dfmy.realm.MyRealm"/>  
+    <!-- 安全管理器 -->
+	<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">  
+  	  <property name="realm" ref="myRealm"/>
+  	  <property name="sessionManager" ref="sessionManager" />
+	</bean>
+    <!-- 定义shiro过滤器 -->
+    <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <property name="securityManager" ref="securityManager" />
+        <property name="loginUrl" value="/login" />
+        <property name="successUrl" value="/route/manage/index" />
+        <!-- 如果无请求资源的权限，则跳转到指定请求地址 -->
+        <property name="unauthorizedUrl" value="/unauthorized" />
+	    <property name="filters">  
+	        <map>  
+	            <entry key="permission">  
+	              <bean class="com.dfmy.filter.RoleAuthorizationFilter">  
+	              </bean>  
+	            </entry>  
+	        </map>  
+	    </property>  
+        <!-- 过滤链配置 -->
+        <property name="filterChainDefinitions">
+            <value>
+				/res/**=anon
+				/route/panorama=anon
+				/route/main/dataexchange=anon
+				/sysD*/**=authc
+				/sysU*/**=authc
+				/sysR*/**=authc
+				/sysM*/**=authc
+				/sysI*/**=authc
+				/route*/**=authc
+	        </value>  
+        </property>
+    </bean>
+    <!-- 会话管理器 -->  
+	<bean id="sessionManager" class="org.apache.shiro.web.session.mgt.DefaultWebSessionManager">  
+	    <!-- session的失效时长，单位毫秒 -->  
+	    <property name="globalSessionTimeout" value="36000000"/>  
+	    <!-- 删除失效的session -->  
+	    <property name="deleteInvalidSessions" value="true"/>  
+	</bean>
+	
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager" />
+	</bean>
+	<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"
+        depends-on="lifecycleBeanPostProcessor" />
+    <!-- 保证实现了Shiro内部lifecycle函数的bean执行 -->  
+	<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"/>  
+</beans>

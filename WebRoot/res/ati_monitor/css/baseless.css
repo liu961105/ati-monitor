@@ -1,0 +1,212 @@
+.m-header {
+  height: 8.111111111111112vh;
+  background-color: #1E2547;
+}
+.m-header .m-header-title {
+	float: left;
+	color: #fff;
+	/* padding: 0.5vh 2vw; */
+	margin-left: 1vw;
+	line-height: 3vh;
+	padding-top: 1vh;
+	cursor: pointer;
+}
+.m-header .m-header-title .m-header-title-top {
+	font-size: 1rem;
+}
+.m-header .m-header-title .m-header-title-bottom {
+	margin-left: 3.5vw;
+	margin-top: 0.3vh;
+	font-size: 0.7rem;
+}
+.m-header .m-header-ul {
+  overflow: hidden;
+  float: right;
+  margin-right: 1.0416666666666667vw;
+}
+
+.m-header .m-header-ul li {
+  float: left;
+  color: white;
+  line-height: 6.111111111111112vh;
+  margin-right: 2.604166666666667vw;
+  font-size: 0.911851851851852vw;
+  cursor: pointer;
+}
+
+.m-header .m-header-ul li i {
+  margin-right: 0.5208333333333334vw;
+}
+
+.m-nav {
+  height: 11.944444444444446vh;
+  background-color: #00c1ac;
+}
+
+.m-nav .m-nav-ul {
+  margin: 0;
+  padding: 1.2037037037037037vh 0;
+}
+
+.m-nav .m-nav-ul li {
+  width: 9.444444444444445vh;
+  height: 9.444444444444445vh;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  background-color: #04AF9C;
+  float: left;
+  margin-left: 13.208333333333334vw;
+}
+
+.m-nav .m-nav-ul li i {
+  font-size: 1.3020833333333335vw;
+  display: block;
+  margin: 1.388888888888889vh 0 0.462962962962963vh;
+}
+
+.m-nav .m-nav-ul li p {
+  font-size: 0.8rem;
+  margin-top: 1.388888888888889vh;
+}
+
+.m-nav .m-nav-ul .on {
+  background-color: #1E2547;
+}
+
+.m-left-side-nav {
+  width: 9.583333333333334vw;
+    height: 91vh;
+    overflow-y: auto;
+    background-color: #00010a;
+    color: white;
+    float: left;
+}
+.nav-ul.J_menu{
+	margin-top: 1vh;
+}
+.m-left-side-nav .nav-ul .nav-ul-li {
+  text-indent: 1.8229166666666667vw;
+  font-size: 1.851851851851852vh;
+  background-image: url('../img/jt.png');
+  background-position-x: 88%;
+  background-position-y: 1.388888888888889vh;
+  background-repeat: no-repeat;
+  background-size: auto 1.851851851851852vh;
+	margin-bottom: 1.3vh;
+}
+
+.m-left-side-nav .nav-ul .nav-ul-li a {
+  display: block;
+  color: white;
+  height: 4.722222222222222vh;
+  line-height: 4.722222222222222vh;
+  list-style: none;
+  text-decoration: none;
+	font-size: 0.85rem;
+}
+
+.m-left-side-nav .nav-ul .nav-ul-li .iconfont {
+  display: none;
+}
+
+.m-left-side-nav .nav-ul .nav-ul-li ul {
+  display: none;
+  background-color: #171a2d;
+}
+
+.m-left-side-nav .nav-ul .nav-ul-li ul .on a {
+  color: #1ABFC5;
+}
+
+/* .m-left-side-nav .nav-ul .nav-ul-li:hover ul {
+    display: block;
+  } */
+
+.m-left-side-nav .nav-ul .show ul {
+  display: block;
+}
+
+.m-contaiter {
+  position: relative;
+}
+
+.m-contaiter .contaiter-right {
+  margin-left: 9.583333333333334vw;
+	height: 91vh;
+}
+
+.m-contaiter .contaiter-right .path-nav {
+  height: 4.2592592592592595vh;
+  color: white;
+  overflow: hidden;
+  background-color: #253158;
+  padding-left: 0.5208333333333334vw;
+	width: 100%;
+}
+
+.m-contaiter .contaiter-right .path-nav li {
+  float: left;
+  margin-right: 0.5208333333333334vw;
+  letter-spacing: 1px;
+  line-height: 4.2592592592592595vh;
+  font-size: .7rem;
+}
+.mainCont {
+	height: 90vh;
+}
+.m-btn {
+  border: 0;
+  border-radius: 0.2604166666666667vw;
+  height: 3.3333333333333335vh;
+  line-height: 3.3333333333333335vh;
+  padding: 0 0.78125vw;
+  cursor: pointer;
+  font-size: 0.8333333333333334vw;
+  outline: none;
+}
+
+.m-btn-success {
+  background-color: #00c1ac;
+  color: white;
+}
+
+.m-btn-yellow {
+  background-color: #ffff00;
+  color: white;
+}
+
+
+.m-btn-warning {
+  background-color: #FFA10C;
+  color: white;
+}
+
+.m-btn-primary {
+  background-color: #2865D5;
+  color: white;
+}
+
+.m-btn-error {
+  background-color: #D00101;
+  color: white;
+}
+
+.m-table {
+  table-layer: fixed;
+  width: 100%;
+  font-size: 0.8333333333333334vw;
+  border-top: 1px solid #414A81;
+  border-left: 1px solid #414A81;
+}
+
+.m-table thead th {
+  background-color: #545878;
+}
+
+.m-table th, .m-table td {
+  height: 4.444444444444445vh;
+  border-bottom: 1px solid #414A81;
+  border-right: 1px solid #414A81;
+  padding-left: 0.5208333333333334vw;
+}

@@ -1,0 +1,20 @@
+<%@ page language="java" pageEncoding="utf-8"%>
+<script type="text/javascript" src="${ctx}/res/js/lib/jquery/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/jquery/jquery.form.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/jquery/jquery.setUI.js?25"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/zTree_v3/js/jquery.ztree.all.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/handlebars/handlebars.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/layui/layui.all.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/layer/layer.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/My97DatePicker/WdatePicker.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/jquery/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/select2/js/select2.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/select2/js/i18n/zh-CN.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/backstretch/jquery.backstretch.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/validate.js?1"></script>
+<script type="text/javascript" src="${ctx}/res/js/GZGYY.js?122"></script>
+<script type="text/javascript" src="${ctx}/res/js/menuExt.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/main.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/pinyin.js"></script>
+<script type="text/javascript" src="${ctx}/res/ztree/js/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript" src="${ctx}/res/js/lib/echarts/echarts.min.js"></script>

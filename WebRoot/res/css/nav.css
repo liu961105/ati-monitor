@@ -1,0 +1,91 @@
+body {
+	background: url(../img/bg.png) center no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+header {
+	position: absolute;
+    text-align: center;
+    width: 100%;
+}
+header .title{
+	font-size: 2rem;
+    font-family: "Microsoft YaHei";
+    text-align: center;
+    transform: translateY(-50%);
+    background: linear-gradient(to bottom, #e0eefd, #0f84e6);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+.box-main {
+	position: absolute;
+    top: 20vh;
+    height: 70vh;
+    width: 100%;
+}
+.box-item {
+	margin: 0vh 11vw;
+    height: 100%;
+    padding: 2rem;
+    width: 100%;
+}
+.box-item li {
+    display: inline-block;
+    width: 26vh;
+    height: 25vh;
+    margin-top: 5vh;
+    text-align: center;
+    padding-top: 5vh;
+	cursor: pointer;
+	margin-left: 2vw;
+	border-radius: 20px;
+}
+.box-item li i{
+	display: block;
+    background: antiquewhite;
+    width: 5vw;
+    height: 10vh;
+    margin: 0 auto;
+}
+.box-item li span{
+	display: block;
+    margin-top: 4vh;
+    color: #fff;
+}
+.box-item li:nth-child(1){
+	background: #2aa3a7;
+}
+.box-item li:nth-child(2){
+	background: #2a8ade;
+}
+.box-item li:nth-child(3){
+	background: #dea030;
+}
+.box-item li:nth-child(4){
+	background: #24bbbb;
+}
+.box-item li:nth-child(5){
+	background: #04a904;
+}
+.box-item li:nth-child(1) i{
+	background: url(../img/nav/icon_bridge.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.box-item li:nth-child(2) i{
+	background: url(../img/nav/icon_sd.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.box-item li:nth-child(3) i{
+	background: url(../img/nav/icon_way.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.box-item li:nth-child(4) i{
+	background: url(../img/nav/icon_bp.png) center no-repeat;
+	background-size: 100% 100%;
+}
+.box-item li:nth-child(5) i{
+	background: url(../img/nav/icon_dzzh.png) center no-repeat;
+	background-size: 100% 100%;
+}

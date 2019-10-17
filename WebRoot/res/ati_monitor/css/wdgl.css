@@ -1,0 +1,68 @@
+.home .n-contaiter .top {
+    height: 17.037037037037038vh;
+    background-color: #1E2448;
+  }
+  .home .n-contaiter .top .one {
+    color: #406B9C;
+    font-size: 1.851851851851852vh;
+    padding: 1.7592592592592595vh 0.9895833333333334vw;
+  }
+  .home .n-contaiter .top .two {
+    padding: 1.7592592592592595vh 0.9895833333333334vw;
+    color: #406B9C;
+    overflow: hidden;
+  }
+  .home .n-contaiter .top .two li {
+    float: left;
+    width: 50%;
+    margin-bottom: 3.055555555555556vh;
+    font-size: 1.851851851851852vh;
+  }
+  .home .n-contaiter .top .two li label,
+  .home .n-contaiter .top .two li span {
+    display: inline-block;
+    color: white;
+    letter-spacing: 1px;
+  }
+  .home .n-contaiter .top .two li label {
+    width: 6.770833333333334vw;
+    text-align: right;
+    color: white;
+  }
+  .home .n-contaiter .top .two li span {
+    padding: 0.462962962962963vh 0.78125vw;
+    border-radius: 0.462962962962963vh;
+    cursor: pointer;
+  }
+  .home .n-contaiter .top .two li .on {
+    background-color: #02C1AC;
+  }
+  .home .n-contaiter .btn-export {
+    width: 7.395833333333334vw;
+    background-color: white;
+    border-radius: 1.388888888888889vh;
+    color: #33C9B7;
+    margin: 1.2037037037037037vh 1.5625vw;
+  }
+  .home .n-contaiter .center {
+    margin: 1.2037037037037037vh 1.5625vw 0;
+  }
+  .home .n-contaiter .center .m-table {
+    border-color: transparent;
+    border: 0;
+    color: white;
+  }
+  .home .n-contaiter .center .m-table thead th {
+    background-color: #0A0233;
+    border-color: transparent;
+  }
+  .home .n-contaiter .center .m-table td {
+    border-right: 1px solid #414A81;
+    border-bottom: 0;
+		text-align: center;
+  }
+	 #page {
+    color: #333 !important;
+    margin-top: 1.388888888888889vh;
+	}
+  
